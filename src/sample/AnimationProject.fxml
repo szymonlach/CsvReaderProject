@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AnimationController">
+   <children>
+      <Group layoutX="291.0" layoutY="191.0" />
+      <Button layoutX="278.0" layoutY="54.0" mnemonicParsing="false" onAction="#play" text="Play" />
+      <ComboBox fx:id="firstCoordinate" layoutX="211.0" layoutY="102.0" prefHeight="31.0" prefWidth="181.0" promptText="Coordinate" />
+      <Button fx:id="back" layoutX="276.0" layoutY="265.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Circle fx:id="circle" fill="#358ee1" layoutX="81.0" layoutY="192.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
